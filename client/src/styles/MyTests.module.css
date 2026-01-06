@@ -1,0 +1,208 @@
+.myTestsContainer {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.myTestsContainer h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.testsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.testCard {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px 20px;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+}
+
+.testCard h3 {
+  margin: 0 0 10px 0;
+  color: #2c3e50;
+}
+
+.testCard p {
+  margin: 4px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.topic {
+  font-style: italic;
+  color: #7f8c8d;
+}
+
+.viewBtn {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #3498db;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.25s, transform 0.1s;
+}
+
+.viewBtn:hover {
+  background: #2980b9;
+  transform: translateY(-1px);
+}
+
+.viewBtn:active {
+  transform: scale(0.98);
+}
+
+.message {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  width: fit-content;
+  margin: 10px auto;
+}
+
+.success {
+  background-color: #e6ffed;
+  color: #1b5e20;
+  border: 1px solid #81c784;
+}
+
+.error {
+  background-color: #ffebee;
+  color: #c62828;
+  border: 1px solid #ef5350;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: calc(100vw - 20px);
+  height: calc(100vh - 20px);
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  border-radius: 12px;
+}
+
+.modalContent {
+  position: relative;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 85%;
+  overflow-y: auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modalContent h3 {
+  margin-top: 0;
+}
+
+.modalContent table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.modalContent table th,
+.modalContent table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.modalContent table th {
+  background: #f0f0f0;
+}
+
+.closeBtn {
+  margin-top: 15px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.closeBtn:hover {
+  background: #c0392b;
+}
+
+.editBtn {
+  margin-top: 8px;
+  padding: 8px 12px;
+  background: #f39c12;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.25s, transform 0.1s;
+}
+
+.editBtn:hover {
+  background: #e67e22;
+  transform: translateY(-1px);
+}
+
+.editBtn:active {
+  transform: scale(0.98);
+}
+
+.deleteBtn {
+  margin-top: 8px;
+  padding: 8px 12px;
+  background: #e74c3c;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.25s, transform 0.1s;
+}
+
+.deleteBtn:hover {
+  background: #c0392b;
+  transform: translateY(-1px);
+}
+
+.deleteBtn:active {
+  transform: scale(0.98);
+}
+
+.testStats {
+  margin: 10px 0 15px;
+  padding: 10px 15px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.testStats p {
+  margin: 5px 0;
+  color: #333;
+  font-size: 15px;
+}
